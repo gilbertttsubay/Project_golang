@@ -105,7 +105,7 @@ func main()  {
       break
     case "5":
       if config.Status {
-        fmt.Println(service.Logout(conn))
+          service.MenuKategori()
       }
       break
     default:

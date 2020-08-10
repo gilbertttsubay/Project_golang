@@ -135,7 +135,7 @@ func (*Service) DeleteKategori(ctx context.Context, kategori *model.Kategori) (*
 	
 	res = &model.Status {
 		Status: 200,
-		Message: "Barang berhasil di edit",
+		Message: "Barang berhasil di hapus",
 	}
 
 
